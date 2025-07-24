@@ -53,13 +53,7 @@ const translations = {
         description:
           "Designed 3D models of towers and buildings, ensuring architectural precision and aesthetics.",
       },
-      {
-        role: "Promoter",
-        company: "Penguin Random House",
-        period: "04/2025 - 05/2025",
-        description:
-          "Provided personalized book recommendations and payment assistance, promoted a positive customer experience, and managed inventory replenishment.",
-      },
+      
       {
         role: "3D Designer",
         company: "Surtimundo",
@@ -67,13 +61,7 @@ const translations = {
         description:
           "Designed and maintained a responsive website, created cards and 3D mockups, and configured corporate emails to optimize communication.",
       },
-      {
-        role: "Administrative Assistant",
-        company: "Universidad Sergio Arboleda",
-        period: "02/2024 - 08/2024",
-        description:
-          "Supported hiring processes and administrative tasks, drafted documents, and coordinated internal communications for efficient management.",
-      },
+     
       {
         role: "Web / Graphic Designer",
         company: "SIM Internacional SAS",
