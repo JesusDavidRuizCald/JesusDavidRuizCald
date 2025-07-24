@@ -16,13 +16,7 @@ const translations = {
         description:
           "Diseñé modelos 3D de torres y edificios, cuidando la precisión arquitectónica y estética.",
       },
-      {
-        role: "Promotor",
-        company: "Penguin Random House",
-        period: "04/2025 - 05/2025",
-        description:
-          "Ofrecí asesoría personalizada en la búsqueda de libros y medios de pago, promoviendo una experiencia de usuario positiva. Supervisé el inventario y coordiné la reposición de productos, contribuyendo a la fidelización de los clientes.",
-      },
+     
       {
         role: "Diseñador 3D",
         company: "Surtimundo",
@@ -30,13 +24,7 @@ const translations = {
         description:
           "Diseñé y mantuve un sitio web responsive, creé cartas y maquetas 3D, y optimicé la comunicación interna configurando correos corporativos.",
       },
-      {
-        role: "Auxiliar Administrativo",
-        company: "Universidad Sergio Arboleda",
-        period: "02/2024 - 08/2024",
-        description:
-          "Apoyé procesos de selección y tareas administrativas. Redacté documentos y coordiné comunicaciones internas para una gestión eficiente.",
-      },
+      
       {
         role: "Diseñador Web / Gráfico",
         company: "SIM Internacional SAS",
@@ -45,7 +33,7 @@ const translations = {
           "Desarrollé un sitio web responsive, gestioné correos institucionales y creé materiales visuales como presentaciones y maquetas 3D.",
       },
       {
-        role: "Pasante en CRM",
+        role: "Pasante ingeniero multimedia",
         company: "Sodimac Corona S.A",
         period: "01/2023 - 07/2023",
         description:

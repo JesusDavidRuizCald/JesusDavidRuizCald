@@ -21,12 +21,16 @@ import { HyperText } from "../components/magicui/hyper-text";
 import { WordRotate } from "../components/magicui/word-rotate";
 import { FaArtstation } from "react-icons/fa";
 import { useLanguage } from '../LanguageContext';
-import { GlobeIcon } from 'lucide-react'; // icono bonito opcional
+import { GlobeIcon } from 'lucide-react';
 import React from "react";
 
 interface PresentationCardProps {
   FirstName: string;
-  LastName: string;
+  Profe1: string;
+  Profe2: string;
+  Profe3: string;
+  Profe4: string;
+  Profe5: string;
   userNameX: string;
   userNameG: string;
   userNameA: string;
@@ -40,7 +44,11 @@ interface PresentationCardProps {
 
 export function PresentationCard({
   FirstName,
-  LastName,
+  Profe1,
+  Profe2,
+  Profe3,
+  Profe4,
+  Profe5,
   userNameX,
   userNameG,
   userNameL,
@@ -77,50 +85,38 @@ export function PresentationCard({
   return (
     <article className='tw-followcard'>
       <header className='imagen'>
-        <div className='imgcontainer'>
-          <img className='avatar' alt='Foto de perfil Jesus' src={JImg} />
-        </div>
 
-        {/* Botones de tema e idioma */}
-        <div style={{ position: 'absolute', top: 10, right: 20, display: 'flex', gap: '10px' }}>
+        {/* ✅ Botones modo oscuro e idioma correctamente alineados */}
+        <div className="top-buttons">
           <img
-            className='IconSun'
             src={themeIcon}
-            alt='Cambio de modo de ventana'
+            alt="Cambio de modo"
             onClick={toggleTheme}
             style={{ width: 40, height: 40, cursor: 'pointer' }}
           />
-          <button
-            onClick={toggleLanguage}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              background: 'transparent',
-              border: 'none',
-              color: 'inherit',
-              cursor: 'pointer',
-              fontSize: '1rem',
-              gap: '5px'
-            }}
-          >
+          <button onClick={toggleLanguage}>
             <GlobeIcon size={20} />
             {language === 'es' ? 'EN' : 'ES'}
           </button>
         </div>
 
+        <div className='imgcontainer'>
+          <img className='avatar' alt='Foto de perfil Jesus' src={JImg} />
+        </div>
+
         <div className='info'>
-          <strong>
-            <WordRotate
-              className="text-4xl font-bold text-black dark:text-white"
-              words={[FirstName, LastName]}
-            />
-          </strong>
+          <TextAnimate animation="fadeIn" by="word">
+            {FirstName}
+          </TextAnimate>
         </div>
 
         <h1 className='carrera'>
-            <TextAnimate animation="fadeIn" by="word">
-            {profesion}
-           </TextAnimate>
+          <strong>
+            <WordRotate
+              className="text-4xl font-bold text-black dark:text-white"
+              words={[profesion, Profe1, Profe2, Profe3, Profe5, Profe4]}
+            />
+          </strong>
         </h1>
 
         <div className='social-container'>

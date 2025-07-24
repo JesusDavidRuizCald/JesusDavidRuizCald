@@ -26,10 +26,14 @@ function AppContent() {
         userNameS='Jesus_D' 
         userNameI='IAmPapaya' 
         userNameB='Jesus Ruiz Calderón' 
-        FirstName='JESUS DAVID' 
-        LastName='RUIZ CALDERON' 
+        FirstName='JESUS DAVID RUIZ' 
+        Profe1='3D Designer' 
+        Profe2= 'Environment Artist'
+        Profe3= 'Game Developer'
+        Profe5= 'Web Developer'
+        Profe4= 'Multimedia Engineer'
         userNameA='Jesus David'
-        profesion={texts[language].profesion}
+        profesion='Ingeniero Multimedia'
       />
       <ExperienceSection />
       <ProjectsSection />

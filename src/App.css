@@ -109,26 +109,27 @@ body[data-theme='dark'] {
   object-fit: cover;
   object-position: 0px 10%;
 }
-
-.IconSun,
-.LanguageToggle {
+.top-buttons {
   position: absolute;
   top: 10px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
 }
 
-.IconSun {
-  right: 60px;
-}
-
-.LanguageToggle {
-  right: 10px;
-  background: none;
+.top-buttons button {
+  display: flex;
+  align-items: center;
+  background: transparent;
   border: none;
-  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1rem;
+  gap: 6px;
 }
+
 .descripcion {
   font-family: "Roboto Mono", "Inter", "Bebas Neue", system-ui;
   text-align: center;
