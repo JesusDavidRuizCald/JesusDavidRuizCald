@@ -14,7 +14,7 @@ import skethdark from './sketchfab-dark.svg';
 import skethwhite from './sketchfab-white.svg';
 import itchiodark from './itchio-dark.svg';
 import itchiolight from './itchio-light.svg';
-import CV from './CV Jesus Ruiz completa.pdf';
+import CV from './CV_Jesus_Ruiz_completa.pdf';
 import { useTheme } from '../common/ThemeContext';
 import { TextAnimate } from '../components/magicui/text-animate';
 import { HyperText } from "../components/magicui/hyper-text";
@@ -132,7 +132,7 @@ export function PresentationCard({
           </div>
 
           <div className='social-item'>
-            <a href='https://github.com/JesusDavidR' target='_blank'>
+            <a href='https://github.com/JesusDavidRuizCald' target='_blank'>
               <img src={GithubIcon} alt='GitHub' />
             </a>
             <span>{userNameG}</span>
